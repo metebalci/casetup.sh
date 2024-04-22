@@ -60,7 +60,9 @@ The level of logging is increased if `CASETUP_DEBUG` environment variable is set
 
 ## Token PIN
 
-Typically, a token is protected with a PIN which is required to use a private key. This provides security but also prevents automation. If you want, the PIN can be stored into a file and the file path can be set to an environment variable called `CASETUP_TOKEN_PIN`,  then it will be used by `casetup.sh`. The file should be readable only by the owner, thus it should have 400 permission.
+Typically, a token is protected with a PIN which is required to use a private key. This provides security but also prevents automation. The token PIN can be stored into a file and the file path can be set to an environment variable called `CASETUP_TOKEN_PIN`,  then it will be used by `casetup.sh`. The file should be readable only by the owner, thus it should have 400 permission.
+
+At the moment, `CASETUP_TOKEN_PIN` is a must for `casetup.sh`.
 
 ## Runtime
 
