@@ -1,4 +1,4 @@
-** Warning: casetup.sh includes commands that removes files, directories and keys in a PKCS11 token. Use with caution, it is not tested for production use. **
+**Warning: casetup.sh includes commands that removes files, directories and keys in a PKCS11 token. Use with caution, it is not tested for production use.**
 
 # casetup.sh
 
